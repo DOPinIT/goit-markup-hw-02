@@ -11,9 +11,12 @@ body {
  background-color: var(--white-text);
  letter-spacing: 0.03em;
  font-size: 14px;
-
+color: var(--header-color);
 }
-[h3] {color: var(--header-color);}
+
+.current-page {
+        color: var(--accent-color);
+}
 
 .list {
         list-style: none;
@@ -29,7 +32,7 @@ text-decoration: none;
 font-family: 'Raleway';
         font-style: normal;
         font-size: 26px;
-        line-height: 1.2;
+        line-height: 1.19;
 
         color: #2196F3;
 }
@@ -44,7 +47,7 @@ color: var(--accent-color)
 }
 
 .color-logo-up {
-        color: #000;
+        color: #000000;
 }
 
 .header-item {
@@ -52,7 +55,7 @@ color: var(--accent-color)
 }
 
 .header-link {
-        font-style: normal;
+        font-weight: 500;
         line-height: 1.15;
         letter-spacing: 0.02em;
         color: var(--header-color);
@@ -76,13 +79,13 @@ font-weight: 500;
 
 }
 
-.header-comtactlink {
+.contact-link {
 font-style: normal;
         font-weight: 500;
         line-height: 1.15;
         letter-spacing: 0.02em;
 
-        color: #757575;
+        color: var(--text-color);
 }
 
             /* HERO */
@@ -138,12 +141,11 @@ font-weight: 900;
 
 .feature-item {}
 
-.feature-header {
+.feature-title {
+        font-size: 14px;
         line-height: 1.15;
         text-transform: uppercase;
-
-        color: var(--header-color)}
-
+}
 .feature-text {
         line-height: 1.7;
         color: var(--text-color);
@@ -184,8 +186,6 @@ font-weight: 900;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
-
-        color: var(--header-color)
 }
 
 .team-desc {
@@ -248,6 +248,14 @@ font-weight: 900;
         color: var(--accent-color)
 }
 
+.current-button {
+background: var(--accent-color);
+color: var(--white-text);
+
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+}
+
 .worksbuttons {
         color: var(--white-text);
 }
@@ -263,7 +271,6 @@ font-weight: 900;
                 font-size: 16px;
                 line-height: 1.6;
                 text-align: center;
-                letter-spacing: 0.03em;
         cursor: pointer;
                 color: var(--header-color);
 }
@@ -292,7 +299,6 @@ font-weight: 900;
 .work-img {}
 
 .work-name {
-        font-weight: 700;
                 font-size: 18px;
                 line-height: 2;
                 letter-spacing: 0.06em;
@@ -302,8 +308,6 @@ font-weight: 900;
 
 .work-type {
                 font-size: 16px;
-                line-height: 1.8;
-                letter-spacing: 0.03em;
-        
+                line-height: 1.88;
                 color: var(--text-color)
 }
